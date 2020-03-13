@@ -5,9 +5,26 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--Temporary styling to visualize columns-->
+    <style>
+        .col {
+            background-color: lightblue;
+            border: solid lightslategray 1px;
+        }
+        .col-xs-1-12 {
+            background-color: lightblue;
+            border: solid lightslategray 1px;
+        }
+    </style>
+    
+    <!--My styling choices
+    Transfer to css later-->
+    <style>
+
+    </style>
   </head>
   <body>
     <header>
@@ -27,51 +44,237 @@
         </div>
     </header>
     <main>
-        <img src="images/gang/ShaggyRogers.png" alt="Shaggy">
-        <h1>Shaggy</h1>
-        <ul>
-            <li>Full name:  Norville "Shaggy" Rogers</li>
-            <li>Birthplace:  Coolsville, Ohio</li>
-            <li>Hobbies:  Eating, Cooking with unusual food combinations</li>
-            <li>Fun Fact:  Shaggy is a skilled gymnist despite never going pro!</li>
-        </ul>
-
-        <img src="images/gang/Scooby-Doo.png" alt="Scooby-Doo">
-        <h1>Scooby</h1>
-        <ul>
-            <li>Full name:  Scoobert Scooby-Doo</li>
-            <li>Birthplace:  Knittingham Puppy Farm</li>
-            <li>Hobbies:  Eating all of Shaggy's food, Cowering in fear</li>
-            <li>Fun Fact:  Scooby deeply loathes cats, though he will never admit it!</li>
-        </ul>
-
-        <img src="images/gang/Velma_Dinkley.png" alt="Velma">
-        <h1>Velma</h1>
-        <ul>
-            <li>Full name:  Velma Dinkley</li>
-            <li>Birthplace:  Germany</li>
-            <li>Hobbies:  Studying, Reading, Looking for clues</li>
-            <li>Fun Fact:  Velma can't see without her glasses!</li>
-        </ul>
-            
-        <img src="images/gang/Fred_Jones.png" alt="Fred">
-        <h1>Fred</h1>
-        <ul>
-            <li>Full name:  Fredrick Herman Jones</li>
-            <li>Birthplace:  Coolsville, Ohio</li>
-            <li>Hobbies:  Driving, Building unnecessarily complicated traps, Deciding how to team should split up</li>
-            <li>Fun Fact:  Freddy has an overwhelming obsession with the use of nets!</li>
-        </ul>
-            
-        <img src="images/gang/Daphne_Blake.png" alt="Daphne">
-        <h1>Daphne</h1>
-        <ul>
-            <li>Birthplace:  Coolsville, Ohio</li>
-            <li>Hobbies:  Fashion, Makeup, Karate, Surfing, Piano, Singing</li>
-            <li>Fun Fact:  Daphne is a talented motorcyclist and has been riding since she was 5!</li>
-            <li>Full name:  Daphne Blake</li>
-        </ul>
-            
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-1-12">
+                    <div class="container">
+                        <div class="row" class="shaggy">
+                            <div class="col-xs-1-12">
+                                <img src="images/gang/ShaggyRogers.png" alt="Shaggy">
+                            </div>
+                        </div>
+                        <div class="row" class="name">
+                            <div class="col-xs-1-12">
+                                <h2>Shaggy</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1-12">
+                                Full name:
+                            </div>
+                            <div class="col-xs-1-12">
+                                Norville "Shaggy" Rogers
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1-12">
+                                Birthplace:
+                            </div>
+                            <div class="col-xs-1-12">
+                                Coolsville, Ohio
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1-12">
+                                Hobbies:
+                            </div>
+                            <div class="col-xs-1-12">
+                                Eating, Cooking with unusual food combinations
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1-12">
+                                Fun Fact:
+                            </div>
+                            <div class="col-xs-1-12">
+                                Shaggy is a skilled gymnist despite never going pro!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-1-12">
+                    <div class="container">
+                        <div class="row" class="scooby">
+                            <div class="col-xs-1-12">
+                                <img src="images/gang/Scooby-Doo.png" alt="Scooby-Doo">
+                            </div>
+                        </div>
+                        <div class="row" class="name">
+                            <div class="col-xs-1-12">
+                                <h2>Scooby-Doo</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1-12">
+                                Full name:
+                            </div>
+                            <div class="col-xs-1-12">
+                                Scoobert Scooby-Doo
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1-12">
+                                Birthplace:
+                            </div>
+                            <div class="col-xs-1-12">
+                                Knittingham Puppy Farm
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1-12">
+                                Hobbies:
+                            </div>
+                            <div class="col-xs-1-12">
+                                Eating all of Shaggy's food, Cowering in fear
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1-12">
+                                Fun Fact:
+                            </div>
+                            <div class="col-xs-1-12">
+                                Scooby deeply loathes cats, though he will never admit it!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="container">
+                        <div class="row" class="velma">
+                            <div class="col-xs-1-12">
+                                <img src="images/gang/Velma_Dinkley.png" alt="Velma">
+                            </div>
+                        </div>
+                        <div class="row" class="name">
+                            <div class="col-xs-1-12">
+                                <h2>Velma</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1-12">
+                                Full name:
+                            </div>
+                            <div class="col-xs-1-12">
+                                Velma Dinkley
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1-12">
+                                Birthplace:
+                            </div>
+                            <div class="col-xs-1-12">
+                                Germany
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1-12">
+                                Hobbies:
+                            </div>
+                            <div class="col-xs-1-12">
+                                Studying, Reading, Looking for clues
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1-12">
+                                Fun Fact:
+                            </div>
+                            <div class="col-xs-1-12">
+                                Velma can't see without her glasses!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                        <div class="row" class="fred">
+                            <div class="col-xs-1-12">
+                                <img src="images/gang/Fred_Jones.png" alt="Fred">
+                            </div>
+                        </div>
+                        <div class="row" class="name">
+                            <div class="col-xs-1-12">
+                                <h2>Fred</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1-12">
+                                Full name:
+                            </div>
+                            <div class="col-xs-1-12">
+                                Fredrick Herman Jones
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1-12">
+                                Birthplace:
+                            </div>
+                            <div class="col-xs-1-12">
+                                Coolsville, Ohio
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1-12">
+                                Hobbies:
+                            </div>
+                            <div class="col-xs-1-12">
+                                Driving, Building unnecessarily complicated traps, Deciding how to team should split up
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1-12">
+                                Fun Fact:
+                            </div>
+                            <div class="col-xs-1-12">
+                                Freddy has an overwhelming obsession with the use of nets!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                        <div class="row" class="velma">
+                            <div class="col-xs-1-12">
+                                <img src="images/gang/Daphne_Blake.png" alt="Daphne">
+                            </div>
+                        </div>
+                        <div class="row" class="name">
+                            <div class="col-xs-1-12">
+                                <h2>Shaggy</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1-12">
+                                Full name:
+                            </div>
+                            <div class="col-xs-1-12">
+                                Daphne Blake
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1-12">
+                                Birthplace:
+                            </div>
+                            <div class="col-xs-1-12">
+                                Coolsville, Ohio
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1-12">
+                                Hobbies:
+                            </div>
+                            <div class="col-xs-1-12">
+                                Fashion, Makeup, Karate, Surfing, Piano, Singing
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-1-12">
+                                Fun Fact:
+                            </div>
+                            <div class="col-xs-1-12">
+                                Daphne is a talented motorcyclist and has been riding since she was 5!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
 

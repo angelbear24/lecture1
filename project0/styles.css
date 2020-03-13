@@ -1,5 +1,5 @@
 header {
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font: bold;
   color: white;
   background-color: rgba(0, 0, 0, 0.712);
@@ -7,8 +7,27 @@ header {
 
 body {
   background-color: grey;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {
   background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+  text-align: center;
+}
+
+.gang {
+  text-align: center;
+  display: block;
+}
+
+#page_title {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  padding-top: 2.25em;
 }

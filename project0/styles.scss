@@ -1,5 +1,6 @@
 // Variables
 $font: Arial, Helvetica, sans-serif;
+$header_font_color: white;
 
 // Outline
 header {
@@ -20,18 +21,23 @@ header {
   }
 
 // Menu Bar
-.mystery_machine {
+#mystery_machine {
     width: 50px; 
     padding-top: 3px;
 }
 
-.page_title {
+#page_title {
     position: absolute; 
     left: 50%; 
     margin-right: -50%; 
     transform: translate(-50%, -50%); 
     padding-top: 2.25em;
 }
+
+#menu_bar_icon {
+    color: $header_font_color;
+}
+
 // About Us
 .name {
     text-align: center;

@@ -21,15 +21,22 @@ header {
   }
 
 // Menu Bar
-#mystery_machine {
+.mystery_machine {
     width: 50px; 
     padding-top: 3px;
 }
 
-#menu_button {
+.menu_button {
     color: $menu_bar_font-color;
 }
 
+.page_title {
+    position: absolute; 
+    left: 50%; 
+    margin-right: -50%; 
+    transform: translate(-50%, -50%); 
+    padding-top: 2.25em;
+}
 // About Us
 .name {
     text-align: center;
@@ -40,10 +47,3 @@ header {
 }
 
 // Contact Us
-#page_title {
-    position: absolute; 
-    left: 50%; 
-    margin-right: -50%; 
-    transform: translate(-50%, -50%); 
-    padding-top: 2.25em;
-}

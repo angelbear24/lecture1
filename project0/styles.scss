@@ -1,12 +1,11 @@
 // Variables
 $font: Arial, Helvetica, sans-serif;
-$menu_bar_font-color: white;
 
 // Outline
 header {
     font-family: $font;
     font: bold;
-    color: $menu_bar_font-color;
+    color: white;
     background-color: rgba(0, 0, 0, 0.712);
   }
 
@@ -24,10 +23,6 @@ header {
 .mystery_machine {
     width: 50px; 
     padding-top: 3px;
-}
-
-.menu_button {
-    color: $menu_bar_font-color;
 }
 
 .page_title {
